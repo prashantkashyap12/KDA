@@ -1,0 +1,143 @@
+<!-- Top-header-open  -->
+<header>
+    <section class="top-nav">
+       <div class="container-fluid">
+          <div class="row">
+             <div class="col-md-4 col-sm-3 hidden-sm hidden-xs">
+                  <div class="time"><i class="fa fa-clock-o"></i> &nbsp;<span id="datetime"></span></div>
+               <div routerLink="/adminpanel" class="time">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-lock"></i> &nbsp;<span> Admin Panel</span></div>
+            </div>
+            <div class="col-md-8 col-sm-12 col-xs-12 text-right" style="padding: 5px;">
+               <div class="fs-5"><i class="fa fa-envelope"></i>&nbsp; kdakhurja@gmail.com &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-phone"></i>&nbsp; 05738-252800 </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   
+   <section class="logo-section">
+       <div class="container">
+          <div class="row">
+             <div class="col-md-12">
+                <div class="headright">
+                   <a >
+                      <img class="img-responsive" src="../../assets/images/logo.png"/> 
+                   </a>
+                   <div class="headright">
+                      <img src="../../assets/images/swachh.png" alt="" class="data1 border-circle rounded-circle border border-light mt-1">
+                      <div class="headright-box">
+                         <span class="fw-bold" style="color: chocolate;font-weight: 500;" attr-hindi="">Yogi Adityanath</span><span class="dif-font">Hon. Chief Minister</span>
+                         <span class="dif-font">Uttar Pradesh</span>
+                      </div>
+                      <img src="../../assets/images/up-logo.jpeg" class="data2" alt="" style="height: 60px;margin-left:15px;">
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+    </section>
+   </header>
+
+ <!-- NavBar open -->
+ <div class="primarymenu">
+    <div class="container">
+       <nav class="navbar navbar-inverse">
+          <div class="navbar-header"><button class="navbar-toggle" style="border:1px s" type="button" data-toggle="collapse" data-target=".js-navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button></div>
+          <div class="collapse navbar-collapse js-navbar-collapse">
+             
+            <ul id="nav" class="nav navbar-nav" *ngIf="isLoggedIn; else loggedOut">
+               <li class=""><a class="" routerLink="/home">Home</a></li>
+               <li class="dropdown">
+                  <a class="dropdown-toggel" href="JavaScript:void(0);">About us</a>
+                  <ul class="dropdown-menu">
+                     <li class=""><a class="" routerLink="/about-kda">About KDA</a></li>
+                     <li class=""><a class="" routerLink="/aboutact">Acts</a></li>
+                     <li class=""><a class="" routerLink="/about-rule">Rules</a></li>
+                     <li class=""><a class="" routerLink="/bye-lows">Bye Laws</a></li>
+                     <li class=""><a class="" routerLink="/about-gallery">Gallery</a></li>
+                  </ul>
+               </li>
+               <li class="dropdown">
+                  <a class="dropdown-toggle" href="JavaScript:void(0);">Policies </a>
+                  <ul class="dropdown-menu">
+                     <li class=""><a class="" routerLink="/StateGovt">State Gvt. Policies</a></li>
+                     <li class=""><a class="" routerLink="/CentralGovt">Central Gvt. Policies</a></li>
+                  </ul>
+               </li>
+               <li class="dropdown">
+                  <a class="dropdown-toggel" href="JavaScript:void(0);">Board Meetings</a>
+                  <ul class="dropdown-menu">
+                     <li class=""><a class="" routerLink="/MemberStracture">Member Structure</a></li>
+                     <li class=""><a class="" routerLink="/MeetingDetails">Meeting Detail</a></li>
+                  </ul>
+               </li>
+               <li class="dropdown">
+                  <a class="dropdown-toggel" href="JavaScript:void(0);">Informations</a>
+                  <ul class="dropdown-menu">
+                     <li class=""><a class="" routerLink="/AuthArea">Unauthorize Area/Colony</a></li>
+                     <li class=""><a class="" routerLink="/SealedProperty">Sealed Property</a></li>
+                  </ul>
+               </li>
+               <li class="dropdown">
+                  <a class="dropdown-toggel" href="JavaScript:void(0);">Master Plan </a>
+                  <ul class="dropdown-menu">
+                     <li class=""><a class="" routerLink="/KhurjaMaster">Khurja Master Plan</a></li>
+                     <li class=""><a class="" routerLink="/NcrPlaning">NCR Planning Board</a></li>
+                     <li class=""><a class="" routerLink="/SrPlaning">SR Planning Board</a></li>
+                  </ul>
+               </li>
+               <li class="dropdown">
+                  <a class="dropdown-toggel" href="JavaScript:void(0);">RTI  </a>
+                  <ul class="dropdown-menu">
+                     <li class=""><a class="" routerLink="/RtiActs">RTI Acts</a></li>
+                     <li class=""><a class="" routerLink="/RtiManuals">RTI Manuals</a></li>
+                     <li class=""><a class="" routerLink="/CitizenChart">Citizen Charter</a></li>
+                     <li class=""><a class="" routerLink="/EmpList">Employee List </a></li>
+                     <li class=""><a class="" routerLink="/PoiApio">PIO/APIO List</a></li>
+                  </ul>
+               </li>
+               <li class="dropdown">
+                  <a class="dropdown-toggel" href="JavaScript:void(0);">Notices </a>
+                  <ul class="dropdown-menu">
+                     <li class=""><a class="" routerLink="/PublicNotice">Public Notices</a></li>
+                     <li class=""><a class="" routerLink="/Tender">Tenders</a></li>
+                     <li class=""><a class="" routerLink="/Auction">Auction</a></li>
+                     <li class=""><a class="" routerLink="/Eio">EOI </a></li>
+                     <li class=""><a class="" routerLink="/CancelTander">Cancelled Tender / Corrigendum</a></li>
+                  </ul>
+               </li>
+            </ul>
+
+            <ng-template #loggedOut>
+               <ul id="nav" class="nav navbar-nav" >
+                  <li class="dropdown">
+                     <a class="dropdown-toggel" href="JavaScript:void(0);">Admin Panel </a>
+                     <ul class="dropdown-menu">
+                        <li class=""><a class="" routerLink="/WhatNews">What's News</a></li>
+                        <li class=""><a class="" routerLink="/topslider">Home Marquee</a></li>
+                        <li class=""><a class="" routerLink="/userprofile">User Profiles</a></li>
+                     </ul>
+                  </li>
+                  <li class=""><a class="" (click)="logout()">Logout</a></li>
+               </ul>
+            </ng-template>
+   
+         </div>
+       </nav>
+    </div>
+ </div>
+
+ <!-- image Slider open -->
+ <div class="container-fluid">
+    <div class="row">
+       <div class="col-md-12" style="padding: 0px;">
+          <div class="owl-carousel" id="owl-carousel2">
+             <div class="item">
+                <img src="../../assets/images/slider/slider_main1.jpeg">
+             </div>
+             <div class="item">
+                <img src="../../assets/images/slider/slider_main.jpeg">
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>

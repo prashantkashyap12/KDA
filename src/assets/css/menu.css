@@ -1,0 +1,169 @@
+.btn-purple{box-shadow: inset 0 0px 0 0 #fff; background-color:#fff; color:#000 !important; border-radius:0px; text-transform:uppercase; transition-duration:.3s;}
+.btn-purple:hover{box-shadow: inset 0 -100px 0 0 #000; color:#fff !important; border-color:#ccc; }
+.primarymenu{    transition: .3s;
+    background-color: #0e8887/*#efefef*/;
+    border-bottom: 4px solid #045555;}
+.dropdown > a:after {
+	content: "\f0d7";
+	font-family: "FontAwesome";
+	margin-left: 6px; font-size:13px;
+}
+.home > a::after {
+	content: "\f015";
+	font-family: "FontAwesome";
+	font-size: 15px; 
+}
+.dropdown-menu .has-submenu:after {
+	font-family: "FontAwesome";
+	content: "\f0da";
+	position: absolute;
+	right: 8px;
+}
+.navbar-nav>li {
+ border-right:1px solid rgba(255,255,255,.2);    
+}
+.navbar-nav>li:last-child{border-right:0px;}
+.primarymenu .navbar{ border-radius:0px; margin-bottom:0px; min-height:auto;}
+.primarymenu .navbar-inverse{background-color: rgba(252, 153, 40, 0);
+    border-color: rgba(252, 153, 40, 0);} 
+.primarymenu .navbar-inverse .navbar-nav > li > a {
+	color:#fff;
+	padding:10px; 
+	line-height:inherit; font-size:1.0em; font-weight:400;
+	font-family: 'Roboto', sans-serif;
+	text-transform:uppercase;
+} 
+.primarymenu .navbar-inverse .navbar-nav > .active > a, .primarymenu .navbar-inverse .navbar-nav > .active > a:focus, .primarymenu .navbar-inverse .navbar-nav > .active > a:hover{
+	color:#fff !important;
+	background-color:#f4762a; 
+}
+.primarymenu .navbar-inverse .navbar-nav>li>a:focus, .primarymenu .navbar-inverse .navbar-nav>li>a:hover {
+	color:#fff !important;
+	background-color:#f4762a;
+}
+.primarymenu  .navbar-inverse .navbar-nav > .open > a, .primarymenu  .navbar-inverse .navbar-nav > .open > a:focus, .primarymenu  .navbar-inverse .navbar-nav > .open > a:hover{
+	color:#fff !important;
+	background-color:#f4762a);
+}
+.primarymenu .navbar .dropdown-menu {
+	min-width:200px !important;
+	border-radius:0px;
+	background-color: rgba(255,255,255,1);
+	padding: 0px;
+	box-shadow:0px 0px 10px rgba(0,0,0,.2);
+}
+
+.primarymenu .navbar .dropdown-menu .dropdown-menu{
+	display:none;
+}
+
+.primarymenu .navbar .dropdown-menu li {
+    padding:0 2px;
+	border-bottom:1px solid rgba(139, 31, 65, .1);
+}
+.mega-dropdown-menu li {
+	border-bottom:0px solid rgb(139, 31, 65) !important;
+}
+.primarymenu .navbar .dropdown-menu li:last-child{
+	border-bottom:0px;
+}
+.mega-dropdown-menu li ul {
+    padding: 0px 10px;
+}
+
+.mega-dropdown-menu li ul li{
+	padding: 13px 10px;
+	list-style:none;
+}
+.mega-dropdown-menu li ul li ul{
+	padding:0 5px;
+}
+.mega-dropdown-menu li ul li ul li{
+	list-style:none;
+}
+.primarymenu .navbar .dropdown-menu > li > a {
+	color: #424242;
+    padding: 8px 8px !important; position:relative; font-size:.97em;
+}
+.mega-dropdown-menu > li > ul > li > a:before {
+    content: "\f105";
+	font: normal normal normal 14px/1 FontAwesome;
+	padding-right:5px; position:absolute; left:7px;
+}
+.primarymenu .navbar .dropdown-menu > li > a:focus, .primarymenu .dropdown-menu > li > a:hover {
+	color:#000;
+	background-color:#eee;
+	text-decoration: none;
+}
+
+.sub-sub-menu{
+	display:none !important;
+}
+.open>.dropdown-menu {
+    display: block!important;
+}
+
+/*mega menu*/
+.mega-dropdown {
+  position: static !important;
+}
+.mega-dropdown-menu {
+    min-width: 100% !important;
+    width: 100%; padding:8px 15px 15px 15px !important
+}
+.mega-dropdown-menu > li > ul {
+  padding: 0;
+  margin: 0;
+}
+.mega-dropdown-menu > li > ul > li {
+  list-style: none;
+}
+.mega-dropdown-menu > li > ul > li > a {
+  display: block;
+  color: #222;
+  padding: 5px 10px;
+}
+.mega-dropdown-menu > li ul > li > a:hover,
+.mega-dropdown-menu > li ul > li > a:focus {
+  text-decoration: none;
+  color: #9C0029;
+  background-color:#eee;
+}
+.mega-dropdown-menu > li{ padding:0px 7px !important;}
+.mega-dropdown-menu .dropdown-header {
+    font-size: 15px;
+    color:#000;
+    line-height:35px; border-bottom:4px solid #eee !important; font-weight:bold;
+}
+
+.carousel-control {
+  width: 30px;
+  height: 30px;
+  top: -35px;
+
+}
+.left.carousel-control {
+  right: 30px;
+  left: inherit;
+}
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right {
+  font-size: 12px;
+  background-color: #fff;
+  line-height: 30px;
+  text-shadow: none;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+
+.progmenu {
+    min-width: 126% !important;
+}
+
+
+
+
+ 
+ 
+ 

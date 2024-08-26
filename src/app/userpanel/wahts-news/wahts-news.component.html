@@ -1,0 +1,76 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card shadow-md" style="padding: 1em;margin-top: 1em;box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.1);">
+                <h3 class="text-center">Whats  News  ||  Panel</h3>
+                <hr size="2px">
+
+                <form #myFormAb="ngForm" (ngSubmit)="onSubmit(myFormAb.value)">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Tag Line</label>
+                            <input type="text"  class="form-control" name="lineTag" ngModel>
+                        </div>
+                        <div class="col-md-3">
+                            <label>Data Tag</label>
+                            <input type="text"  class="form-control" name="dataTag" ngModel>
+                        </div>
+                        <div class="col-md-3">
+                            <label>File Upload</label>
+                            <input type="file" class="form-control" name="filebase" ngModel >
+                        </div>                       
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label>Language</label>
+                            <input type="text"  class="form-control" name="lang" ngModel >
+                        </div>
+                        <div class="col-md-4">
+                            <label>Date</label>
+                            <input type="date" class="form-control" name="date" ngModel >
+                        </div>
+                        <div class="col-md-4">
+                            <label>size</label>
+                            <input type="text"  class="form-control" name="size" ngModel >
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-12" style="display: flex;justify-content: space-around;">
+                            <button type="submit" class="btn " [ngClass]="btndataView ? 'btn-success' : 'btn-warning'">{{btndataView? 'Add Record':'Update Record'}}</button>
+                            <!-- <button class="btn btn-danger" (click)="cleardata()">Clear</button> -->
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <br>
+            <table class="table text-center table-bordered" style="overflow: scroll;">
+                <thead>
+                    <tr>
+                        <th>Sr.</th>
+                        <th>Tag Line</th>
+                        <th>Data Tag</th>
+                        <th>File Upload</th>
+                        <th>Language</th>
+                        <th>Date</th>
+                        <th>size</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody *ngFor="let data of datatable; index as i">
+                    <tr>
+                        <td>{{i+1}}</td>
+                        <td>{{data.lineTag}}</td>
+                        <td>{{data.dataTag}}</td>
+                        <td>{{data.filebase}}</td>
+                        <td>{{data.lang}}</td>
+                        <td>{{data.date}}</td>
+                        <td>{{data.size}}</td>
+                        <td><i class="fa fa-edit text-success" (click)="edit(i)" ></i> &nbsp;&nbsp; <i class="fa fa-trash text-danger" (click)="del(i)"></i></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

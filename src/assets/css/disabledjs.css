@@ -1,0 +1,159 @@
+#script-off-txt {
+    background-color: #b21914;
+    color: #fff;
+    font-family: "Open Sans Condensed",Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 0;
+    text-align: center;
+}
+div#collapseOne, div#collapsetwo{display:block ;}
+.nav a:hover, .nav a:focus {
+	color: #FFF;
+	background-color: #d99d1f;
+}
+.nav ul {
+	left: 0;
+	position: absolute;
+	top:100%;
+    z-index:1000; display:block;  width:100%;
+}
+.nav li {
+	margin: 0;
+	padding: 0;
+	position: relative;}
+ 
+.nav ul a {
+	 display:block;}
+ 
+.nav ul a:hover, .nav ul a:focus {
+	background-color: #f5ba3d;
+	color: #000;
+}
+ 
+.nav ul ul {
+	left:100%;
+	top:0;
+}
+.nav ul, .nav :hover ul ul, .nav .hover ul ul {
+	margin-left: -9999px;
+}
+.nav li:hover > ul, .nav li.hover > ul, .nav a:focus + ul, .nav ul ul, .nav .hover a:focus {
+	margin-left: 0; width: 110%;
+}
+.nav ul a:focus{
+	/*margin-left: 9999px !importa*/nt; width: 100%;
+}
+.nav ul li a:active{ 
+margin-left: 0;
+width: auto;
+}
+.nav li:last-child > .dropdown-menu li:hover ul{ margin-left:-395px;}
+.carousel-inner img {
+	max-height: 460px;
+	width: 100%;
+}
+.ws_images img {width:100%;}
+.bxslider {
+    padding: 0;
+}
+.bxslider .item img{ width:100%;}
+.bxslider .item{
+	display:none;
+}
+.bxslider .item:first-child{
+	display:block;
+	list-style:none;
+}
+.kisan-corner .panel-default>.panel-body .quic li ul {
+        background-color: #9accf3;
+    display: block;
+    border: 1px solid #9accf3;
+    border-radius: 0;
+    box-shadow: none;
+    margin-top: 0px;
+    position: relative;
+    right: 0%;
+    width: 100%;
+    z-index: 9;
+}
+.quick-links1 ul li ul {
+    padding-bottom: 1px;
+    display: block;
+}
+.has-sub a:after {
+    content: "-";
+    float: right;
+    font-size: 15px;
+    font-weight: 700;
+}
+.quick-links1 ul li ul li a:after{content:'';}
+.schemes-slider .item { margin: 3px 3px 3px 3px;}
+.important-link .item { background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgb(204, 204, 204);
+    float: left;
+    margin: 0 6px 7px 6px;
+    min-height: 70px;
+    padding: 0;
+    transition-duration: 0.2s;
+    width: 199px;
+}
+/*=======photo=gallery================*/
+/*=============gallery=====================*/
+.grid-stack>.grid-stack-item {
+    min-width: 8.33333333%;
+    position: static;
+    float: left;
+}
+.grid-stack > .grid-stack-item > .grid-stack-item-content{position:static;}
+/*=========sitemap===============*/
+.sitemap {overflow:auto !important;}
+.sitemap ul {    list-style-type: none !important;
+    margin: 0 !important;
+    padding: 0 5px 4px 6px !important;
+    position: relative !important;}
+	
+.sitemap ul li {
+    font-weight: bold;
+    margin: 10px 0;
+    display: block;
+    width: 100%;
+	border: 0px !important;
+}
+.sitemap ul li a {
+    color: #0c3156;
+    display: block;
+    transition-duration: 0.3s;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: antiquewhite;
+    font-size: 1em !important;
+}
+.sitemap .navbar-nav>li>.dropdown-menu {
+    position: static !IMPORTANT;
+    display: block !important;
+    margin: 0 !IMPORTANT;
+	border: 0px !important;
+}
+ .sitemap .dropdown-submenu > .dropdown-menu {
+    position: static !important;
+    display: block;
+    margin: 0 !IMPORTANT;
+	border: 0px !important;
+}
+
+
+/*(*(%(*%*%*(%*(*(*%(*%(*%(%(*/
+.ws_images ul li a {
+  color: currentColor;
+  display: inline-block;  /* For IE11/ MS Edge bug */
+  pointer-events: none !important;
+  text-decoration: none;
+}
+
+
+.nav li:hover > ul, .nav li.hover > ul, .nav a:focus + ul, .nav ul ul, .nav .hover a:focus {
+    margin-left: 0;
+    width: 110%;
+    display: block !important;
+}

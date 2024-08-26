@@ -1,0 +1,12 @@
+.useful-links .icon-holder {
+    margin-bottom: 13px !important;
+    min-height: 109px !important;
+    padding: 0 4px !important;
+    margin: 0 0 20px 0 !important;
+}
+.useful-links .highlight{
+    background: #ff5400 !important;
+}
+.useful-links .highlight:before{
+    animation: hvr-ripple-out 1s linear infinite;
+}

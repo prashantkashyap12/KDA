@@ -1,0 +1,111 @@
+/* liScroll styles */
+
+.tickercontainer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    background: #fafafa;
+    border: thin solid #ccc;
+    margin-bottom: 6px;
+    height: 40px;
+    margin-top: 0;
+}
+    /* that serves as a mask. so you get a sort of padding both left and right */
+    .tickercontainer .mask {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        padding-left: 110px;
+    }
+
+ul.newsticker { /* that's your list */
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 34px !important;
+}
+    /* important: display inline gives incorrect results when you check for elem's width */
+    ul.newsticker li {
+        float: left;
+        padding: 0;
+    }
+
+
+        ul.newsticker li a {
+            background: #fafafa;
+            color: #111;
+            padding: 10px;
+            line-height: 38px;
+            margin-left: 10px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+
+
+
+ul.er-controls {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: red;
+    margin: 0;
+}
+
+    ul.er-controls > li {
+       display: inline-block;
+    padding: 0;
+    background: #155383;
+    margin: 0;
+    border-radius: 0;
+    width: 38px;
+    height: 40px;
+    border-right: solid 1px #fff;
+    }
+
+        ul.er-controls > li:last-child {
+            border-right: none;
+        }
+
+    ul.er-controls li.fa:before {
+        color: #fff;
+        line-height: 40px;
+    }
+
+    ul.er-controls > li:hover {
+        background: #f8534b;
+        cursor: pointer;
+    }
+
+.scroll_title {
+  background: #e5790d;
+    position: absolute;
+    color: #fff;
+    font-size: 16px;
+    padding: 7px 10px 9px 10px;
+    top: 0px;
+}
+
+    .scroll_title:after {
+       content: "";
+    position: absolute;
+    left: 96%;
+    top: 9px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 15px solid #e5790d;
+    border-bottom: 10px solid transparent;
+    }
+
+
+ul.er-controls .pause, .play {
+    background: #ed8114 !important;
+}

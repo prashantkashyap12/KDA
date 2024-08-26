@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (max-width: 1024px) {
+  .primarymenu .navbar-inverse .navbar-nav > li > a {padding: 10px 5px; font-size: 0.8em;}
+  ul.quik-two {overflow:hidden; margin: 0 0 10px 0;}
+  ul.quik-two li {width:30%}
+  ul.projects li {width:23%;}
+  ul.projects li a span {top:94px;}
+  ul.footer-policy-lits li a {padding:0 5px;}
+  .footer-policy .social-circle {padding: 11px 0 11px 60px;}
+}
+
+@media (max-width: 980px) {
+	ul.projects li a span {top:65px;}
+	ul.projects li a {font-size:13px; margin-bottom: 5px;}
+	.footer-policy .social-circle {padding: 11px 0 11px 10px;}
+	ul.footer-policy-lits li a {padding: 0 3px; font-size:13px;}
+}
+
+@media (max-width: 767px) {
+	.primarymenu .navbar-inverse .navbar-nav > li > a, .primarymenu .navbar .dropdown-menu > li > a {padding: 10px 20px !important; font-size: 1em !important;}
+	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {color:#000 !important}
+	.leader-box-section {position:static !important; background:none !important; width:100% !important; padding-left:0 !important; padding-right:0 !important;}
+	.leader li img {float:none !important; display:block; margin:auto;}
+	.leader li h4, .leader li p {text-align:center;}
+	.welcome .btn-danger {margin-top:0 !important}
+	.father-Homoeopathic {padding-top:0 !important}
+	.father-Homoeopathic img {display:block; margin:auto}
+	.welcome h1 {margin-top:0 !important;}
+	.quick-links {padding:0 !important}
+	.quick-links a {margin-bottom:20px}
+	footer .address p, footer .quick-contact p {font-size:14px !important; line-height:18px !important;}
+	.foot-bottom ul.social-circle::before {left:28px !important;}
+	.copyright p {text-align:center}
+	.navbar-inverse .navbar-toggle .icon-bar {background-color:#ffffff}
+	.navbar-inverse .navbar-toggle:hover .icon-bar, .navbar-inverse .navbar-toggle:focus .icon-bar {background-color:#fff}
+	.navbar-collapse {width:100%}
+	.welcome h1 {padding:15px 0}
+	.in-banner .inheading h2 {margin-bottom: 10px; margin-top: 25px;}
+	ul.righ-menu {padding-left:55px;}
+	.filter-box label {display:block}
+	#inner .line h5 {text-align:center}
+	.line a.bill-portal {display:block; float:none !important; width:40%; margin:10px auto;}
+	.leaderbox img {float: none !important;}
+	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+    color: #fff !important;
+    background-color: #000 #fff !important;
+}
+}
+
+@media (max-width: 480px) {
+	.headright{
+		display: none;
+	} 
+	.logo-section .col-xs-8, .logo-section .col-xs-4 {width:100% !important;}
+	ul.top-logo {/*overflow:hidden;*/ text-align:center; display:none;}
+	ul.top-logo li {float:none; display:inline-block; margin:10px 0;}
+	ul.quik-two li {margin: 15px 5px 0 5px;}
+	ul.projects {overflow:hidden; padding:0}
+	ul.projects li {width:48%; margin:1%;}
+	ul.projects li a span {top: 95px;}
+	.footer-top .col-xs-4, .footer-policy .col-xs-8, .footer-policy .col-xs-4, .footer-bottom .col-xs-8, .footer-bottom .col-xs-4 {width:100%}
+	.footer-bottom p {text-align:center}
+	ul.footer-policy-lits li a {font-size: 12px;}
+	ul.social-network {text-align:center}
+	.footer-top .notice {min-height: 185px;}
+	.services li {width: 45.5% !important; margin:10px 9px !important;}
+	.address.col-xs-4, .quick-contact.col-xs-4, .social-media.col-xs-4 {width:71% !important; float:none !important; display:block !important; margin:auto !important;}
+	.foot-bottom ul.social-circle::before {left:0 !important;}
+	.social-media h4 {text-align:left !important; margin-left:40px !important;}
+	.foot-bottom ul.social-circle {text-align:left !important; padding-left:45px !important;}
+	.top-nav ul {padding:0}
+	.top-nav ul li:last-child {float:left; width:100%}
+	.in-banner .inheading h2 {margin-bottom: 5px; margin-top: 5px;}
+	ol.breadcrumb li {margin: 0px 2px;}
+	.in-banner .inheading h2 {font-size:21px; margin-bottom:0;}
+	.line a.bill-portal {width:66%}
+	.helpline {margin-left:0px !important;}
+	.leaderbox img {float: none !important;}
+	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+    color: #fff !important;
+    background-color: #000 #fff !important;
+}
+}
+@media (max-width: 360px) {
+	.headright{
+		display: none;
+	} 
+	ul.projects li a span {top: 62px;}
+	ul.footer-policy-lits {text-align:center}
+	ul.footer-policy-lits li {padding:5px 0}
+	.in-banner .inheading h2 {margin-bottom: 5px; margin-top: 5px; font-size: 20px;}
+	.imgborder {float:none !important; margin:0 auto 10px !important; display:block !important;}
+	.in-banner img {height:100px !important}
+	.line a.bill-portal {width:91%}
+	.helpline {margin-left:0px !important;}
+	.leaderbox img {float: none !important;}
+	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+    color: #fff !important;
+    background-color: #000 #fff !important;
+}
+}
+
+@media (max-width: 320px) {
+	.headright{
+		display: none;
+	} 
+	ul.quik-two li {width: 96%;}
+	ul.projects li {width: 100%; margin: 2% 0;}
+	ul.projects li a span {top: 129px;}
+	.in-banner .inheading h2 {margin-bottom: 0;}
+	.helpline {margin-left:0px !important;}
+	.leaderbox img {float: none !important;}
+	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+    color: #fff !important;background-color: #000 #fff !important;}
+}
+

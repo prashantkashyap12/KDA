@@ -1,0 +1,14 @@
+<div class="mask">
+    <ul id="ticker_scro" class="newsticker" style="width: 1839px; height: 38px; left: -300.25px;">
+       <li class='news-item' *ngFor="let datares of fleshnews">
+          <span class='arw'>
+            <em class='fa fa-long-arrow-right'></em></span>
+            <a class='adtext' [href]="datares.filebase">{{datares.lineTag}} </a>
+              
+           
+            <em class='fa fa-file-pdf-o'></em>
+            <span class='dsize'> [{{datares.dataTag}}], Size: {{datares.size}} | Language: {{datares.lang}} </span> 
+            <p class='ndate'>Last Date : {{datares.date}}</p>
+       </li>
+    </ul>
+ </div>

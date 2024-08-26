@@ -1,0 +1,35 @@
+<div class="col-md-3">
+   <div class="row">
+      <div class="panel news">
+         <div class="panel-heading">
+            <h4><img src="../../assets/images/whats.png" /> What&rsquo;s New</h4>
+            <div class="play-pause">
+               <span> 
+                  <b id="stop2" style="display: inline;">
+                     <i class="fa fa-pause btn btn-info btn-sm"></i> 
+                  </b> 
+                  <b id="play2" style="display: none;"> 
+                     <i class="fa fa-play-circle btn btn-danger btn-sm"></i> 
+                  </b> 
+               </span>
+            </div>
+         </div>
+         <div class="panel-body pressRelease news-top">
+            <ul id="ticker2">
+               <li class='news-item' *ngFor="let slider of topslider">
+                  <span class='arw'>
+                     <em class='fa fa-long-arrow-right'></em>
+                  </span>
+                  <a class='adtext' target='_blank' [href]='slider.filebase'>{{slider.lineTag}}
+                     <span class='dtype'>{{slider.dataTag}}</span>
+                  </a>   
+                  <em class='fa fa-file-pdf-o'></em>
+                  <span class='dsize'> Size: {{slider.size}} | Language: {{slider.lang}} </span> 
+                  <p class='ndate'>Last Date : {{slider.date}}</p>
+               </li>
+            </ul>
+         </div>
+         <div class="panel-footer"><a href="#" class="view-all local">View All</a></div>
+      </div>
+   </div>
+</div>

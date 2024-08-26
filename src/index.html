@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>KhurjaDevelopmentAuth</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- Theams Imports -->
+  <meta http-equiv="Content-Type" content="text/html;&#32;charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta name="viewport" content="width=device-width,&#32;initial-scale=1.0" />
+  <meta name='keywords' content=''>
+  <meta name='description' content=' '>
+  <meta name="author" content="Prashant_kashyap">
+  <title> Khurja Development Authority, Uttar Pradesh, India.</title>
+  <link rel="shortcut&#32;icon" href="favicon.ico" />
+  <style type="text/css">
+    @import url("assets/css/sitecss.css");
+    @import url("assets/css/bootstrap.min.css");
+    @import url("assets/css/font-awesome.min.css");
+    @import url("assets/css/owl.carousel.css");
+    @import url("assets/css/jquery.smartmenus.bootstrap.css");
+    @import url("assets/css/menu.css");
+    @import url("assets/css/responsive.css");
+    @import url("assets/css/endlessRiver.css");
+    @import url("assets/css/disabledjs.css");
+    .owl-item > img{
+      width: 1000px !important;
+      height: 1000px !important;
+    }
+  </style>
+  <link href="assets/css/style.css" rel="stylesheet" id="MSS" />
+  <script src="assets/js/vanilla-tilt.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="assets/Scripts/jquery.min.js"></script>
+</head>
+<body>
+
+  <app-root></app-root>
+
+</body>
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/font-resize.js"></script>  
+<script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="assets/js/news-scroll.js"></script> 
+<script type="text/javascript" src="assets/js/jquery.smartmenus.js"></script> 
+<script type="text/javascript" src="assets/js/jquery.smartmenus.bootstrap.js"></script>
+<script>
+
+    $("#owl-carousel2").owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: false,
+      autoplay: true,
+      autoplayTimeout:2000,
+      autoplayHoverPause:true,
+      navigation:false,
+      items:1,
+    });
+
+   $(document).ready(function () {
+       $("#ticker_scro").endlessRiver({
+           speed: 100,
+           pause: true,
+           buttons: true
+       });
+   });
+
+   $(document).ready(function(){
+      $(".nano").nanoScroller();
+   });
+   
+   VanillaTilt.init(document.querySelector(".your-element"), {
+      max: 25,
+      speed: 100,
+      transition: true,
+      speed: 300, 
+   });
+   VanillaTilt.init(document.querySelectorAll(".your-element"));
+</script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/myscript.js"></script>
+<script src="assets/js/endlessRiver.js"></script>
+
+</html>
